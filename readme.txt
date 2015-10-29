@@ -1,0 +1,10 @@
+countvalueofcat.py是根据类目搭配套餐推荐200个商品
+count_term_match.py 是计算商品的分词在分词搭配关系表中是否满足该搭配
+deletetest.py是为了在将专家推荐搭配表转换成类目搭配表中删去可替代商品
+dimcatmatrix.py是生成商品数据集类目搭配矩阵
+dimtermmatrix.py是生成商品数据集分词搭配矩阵
+testcatmatrix.py是生成待测商品数据集分词搭配矩阵
+testtermmatrix.py是生成待测商品数据集分词搭配矩阵
+sortcat.py是处理类目搭配表时将类目按大小排序
+sordict.py是为了推荐200个最大值得商品时调用的，将字典里的元素按照值的大小从小到大排序
+splitfile.py是为了将生成的太大的文件分成数个小点的文件，按照行数来划分
